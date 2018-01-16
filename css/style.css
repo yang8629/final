@@ -428,8 +428,13 @@ a{
 }
 
 .flip--background{
-background:#444444;
+background-image: linear-gradient(to top,#222222,#666666);
 color: #FFFFFF;
+}
+
+.address--title{
+  width: auto;
+  margin-top: 30px;
 }
 
 .address{
