@@ -77,7 +77,7 @@ a{
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #000000;
+  background: #333333;
   border-radius: 2px;
   opacity: 1;
   left: 0;
@@ -355,7 +355,7 @@ a{
 .day a, .day--1 a{
   height: auto;
   width: auto;
-  font-size: 30px;
+  font-size: 25px;
   font-style: Microsoft JhengHei, sans-serif;
   text-align: center;
   background-color: #AAAAAA;
@@ -383,7 +383,7 @@ a{
   height: auto;
   width: auto;
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
   color: #888888;
   overflow: hidden;
 }
@@ -399,4 +399,52 @@ a{
   margin: 0;
   padding: 12px 15px;
   color: inherit;
+}
+
+.flip--1, .flip--2, .flip--3{
+  margin:0px;
+  padding:5px;
+  text-align:center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #888888;
+  background-color: #F0F2F5;
+  border:solid 1px #c3c3c3;
+  cursor:pointer;
+  font-family:sans-serif,'Arial';
+  border-radius:5px;
+}
+
+.panel--1, .panel--2, .panel--3{
+  margin:0px;
+  padding-top: 5px;
+  padding-left: 5px;
+  text-align:center;
+  font-size: 16px;
+  color: #888888;
+  background-color: #F0F2F5;
+  display:none;
+  font-family:'Arial';
+}
+
+.flip--background{
+background:#444444;
+color: #FFFFFF;
+}
+
+.address{
+  color: #888888;
+  text-align: center;
+  font-size: 16px;
+}
+
+.map{
+  padding: 16px 20px;
+}
+
+footer{
+  background-color: #444444;
+  text-align: center;
+  color: #FFFFFF;
+  height: auto;
 }
